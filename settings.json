@@ -22,8 +22,8 @@
     "workbench.colorTheme": "Tokyo Night",
     "editor.fontFamily": "JetBrains Mono', Consolas, 'Courier New, Monoto'",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 26,
-    "editor.fontSize": 16,
+    "editor.lineHeight": 23,
+    "editor.fontSize": 15,
     "editor.letterSpacing": 0,
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -37,7 +37,5 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
     "terminal.integrated.fontFamily": "monospace"
-
-
 
 }
