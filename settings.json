@@ -1,11 +1,10 @@
 {
-    "window.zoomLevel": 0,
     "editor.minimap.enabled": false,
     "editor.formatOnSave": false,
     "editor.formatOnPaste": false,
     "editor.renderWhitespace": "trailing",
     "editor.linkedEditing": true,
-    "editor.occurrencesHighlight": false,
+    "editor.occurrencesHighlight": "off",
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "files.autoSave": "onFocusChange",
@@ -16,15 +15,14 @@
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "always",
     // "workbench.editor.enablePreview": false,
-    "emmet.triggerExpansionOnTab" : true,
+    "emmet.triggerExpansionOnTab": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Tokyo Night",
-    "editor.fontFamily": "JetBrains Mono', Consolas, 'Courier New, Monoto'",
+    "editor.fontFamily": "Consolas, Courier New, Monoto",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 26,
-    "editor.fontSize": 16,
-    "editor.letterSpacing": 0,
+    // "editor.lineHeight": 23,
+    "editor.fontSize": 17,
+    // "editor.letterSpacing": 0.5,
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.colorCustomizations": {
@@ -36,8 +34,22 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
-    "terminal.integrated.fontFamily": "monospace"
-
-
-
+    "terminal.integrated.fontFamily": "monospace",
+    "window.zoomLevel": 0,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Tokyo Night",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    }
 }
